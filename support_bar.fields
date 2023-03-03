@@ -1,0 +1,133 @@
+{
+  "goal": {
+    "type": "number",
+    "label": "Goal",
+    "value": 150,
+    "min": 0,
+    "step": 0.01
+  },
+  "value": {
+    "type": "number",
+    "label": "Value"
+  },
+  "sh143_support_barSet": {
+    "type": "button",
+    "label": "Set Value (save beforehand)"
+  },
+  "sh143_support_barAdd": {
+    "type": "button",
+    "label": "Add Value (save beforehand)"
+  },
+  "tier1": {
+    "type": "number",
+    "label": "Tier 1",
+    "value": 2,
+    "min": 0,
+    "step": 0.01
+  },
+  "tier2": {
+    "type": "number",
+    "label": "Tier 2",
+    "value": 4,
+    "min": 0,
+    "step": 0.01
+  },
+  "tier3": {
+    "type": "number",
+    "label": "Tier 3",
+    "value": 10,
+    "min": 0,
+    "step": 0.01
+  },
+  "maxDigits": {
+    "type": "number",
+    "label": "Max Number of Digits",
+    "value": 2,
+    "min": 0,
+    "step": 1
+  },
+  "graphAnimation": {
+    "type": "dropdown",
+    "label": "Graph Animation",
+    "value": "ease-in-out",
+    "options": {
+      "ease-in-out": "Ease In & Ease Out",
+      "ease-in": "Ease In",
+      "ease-out": "Ease Out"
+    }
+  },
+  "graphAnimationDuration": {
+    "type": "number",
+    "label": "Graph Animation Duration",
+    "value": 1,
+    "min": 0,
+    "step": 0.1
+  },
+  "borderRadius": {
+    "type": "number",
+    "label": "Border Radius",
+    "value": 5,
+    "min": 0,
+    "step": 1
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background Color",
+    "value": "#000000"
+  },
+  "graphColor": {
+    "type": "colorpicker",
+    "label": "Graph Color",
+    "value": "#000000"
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font:",
+    "value": "Roboto"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size (px)",
+    "value": 25,
+    "min": 1,
+    "step": 1
+  },
+  "fontWeight": {
+    "type": "dropdown",
+    "label": "Font Weight:",
+    "value": "bold",
+    "options": {
+      "normal": "normal",
+      "bold": "bold"
+    }
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "#000000"
+  },
+  "strokeColor": {
+    "type": "colorpicker",
+    "label": "Stroke Color",
+    "value": "#000000"
+  },
+  "strokeWidth": {
+    "type": "number",
+    "label": "Stroke Width",
+    "value": 0,
+    "min": 0,
+    "step": 1
+  },
+  "sh143_support_barReset": {
+    "type": "button",
+    "label": "Reset"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Support Bar"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Sh1t H4pp3ns"
+  }
+}

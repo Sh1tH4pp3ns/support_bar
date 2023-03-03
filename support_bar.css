@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  font-family: {{fontName}};
+  font-size: {{fontSize}}px;
+  font-weight: {{fontWeight}};
+  color: {{fontColor}};
+  -webkit-text-stroke: {{strokeWidth}}px {{strokeColor}};
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: {{backgroundColor}};
+  border-radius: {{graphBorderRadius}}px;
+}
+
+#bar {
+  height: 100%;
+  background-color: {{graphColor}};
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  
+  transition: width {{graphAnimationDuration}}s {{graphAnimation}};
+  border-radius: {{graphBorderRadius}}px;
+}
+
+#zero {
+  z-index: 1;
+  position: relative;
+  margin-left: 10px;
+}
+
+#support {
+  z-index: 1;
+  position: relative;
+}
+
+#goal {
+  z-index: 1;
+  position: relative;
+  margin-right: 10px;
+}
+
+.noAnimation {
+  transition: none !important;
+}
