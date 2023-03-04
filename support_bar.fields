@@ -63,7 +63,7 @@
     "min": 0,
     "step": 0.1
   },
-  "borderRadius": {
+  "graphBorderRadius": {
     "type": "number",
     "label": "Border Radius",
     "value": 5,

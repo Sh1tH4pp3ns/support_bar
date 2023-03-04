@@ -17,6 +17,8 @@ body {
   
   background-color: {{backgroundColor}};
   border-radius: {{graphBorderRadius}}px;
+  position: relative;
+  overflow: hidden;
 }
 
 #bar {
@@ -28,7 +30,6 @@ body {
   z-index: 1;
   
   transition: width {{graphAnimationDuration}}s {{graphAnimation}};
-  border-radius: {{graphBorderRadius}}px;
 }
 
 #zero {
