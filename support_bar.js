@@ -23,7 +23,14 @@ window.addEventListener('onEventReceived', function (obj) {
     add(event.amount / 100);
   }
   else if(listener === 'subscriber-latest') {
-    add(tiers[event.tier]);
+    if(event.isCommunityGift) {
+      // skip single gift events
+      return;
+    }
+    const subCount = event.bulkGifted ? event.amount : 1;
+    const value = tiers[event.tier] * subCount;
+    
+    add(value);
   }
   else if(event.listener === "widget-button") {
     if(event.field === "sh143_support_barAdd") {
